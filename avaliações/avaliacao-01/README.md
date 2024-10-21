@@ -1,4 +1,4 @@
-Executar as seguintes etapas para concluir essa atividade:
+### Executar as seguintes etapas para concluir essa atividade:
 1) Criar uma conta no GitHub;
 2) Criar um repositório chamado pdm2-242;
 3) Criar uma estrutura de pastas no repositório conforme as orientações definidas em Regras.
