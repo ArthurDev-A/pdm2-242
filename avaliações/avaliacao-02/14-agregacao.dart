@@ -7,6 +7,10 @@ class Dependente {
   Dependente(String nome) {
     this._nome = nome;
   }
+
+  String getNome() {
+    return _nome;
+  }
 }
 
 class Funcionario {
@@ -17,6 +21,13 @@ class Funcionario {
     this._nome = nome;
     this._dependentes = dependentes;
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      "nome": _nome,
+      "dependentes": _dependentes.map((d) => d.getNome()).toList()
+    };
+  }
 }
 
 class EquipeProjeto {
@@ -26,6 +37,13 @@ class EquipeProjeto {
   EquipeProjeto(String nomeprojeto, List<Funcionario> funcionarios) {
     _nomeProjeto = nomeprojeto;
     _funcionarios = funcionarios;
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      "nome do projeto": _nomeProjeto,
+      "funcionários": _funcionarios.map((f) => f.toJson()).toList()
+    };
   }
 }
 
@@ -50,6 +68,15 @@ void main() {
   // 5. criar um objeto Equipe Projeto chamando o metodo
   //    contrutor que da nome ao projeto e insere uma
   //    coleção de funcionario
-  
+  var equipeProjeto = EquipeProjeto("Loja de peças de trator", funcionarios); 
   // 6. Printar no formato JSON o objeto Equipe Projeto.
+  
+  //Converte para json sem quebra de linha
+  //print(json.encode(equipeProjeto));
+  
+  //Converte para json com quebra de linha
+  var enconder = JsonEncoder.withIndent('  ');
+  String equipeProjetoJson = enconder.convert(equipeProjeto.toJson());
+
+  print(equipeProjetoJson);
 }
