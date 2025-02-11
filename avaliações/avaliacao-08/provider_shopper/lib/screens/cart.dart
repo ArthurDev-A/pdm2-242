@@ -13,7 +13,7 @@ class MyCart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cart do Arthur', style: Theme.of(context).textTheme.displayLarge),
+        title: Text('Cart do Arthur e Vitória', style: Theme.of(context).textTheme.displayLarge),
         backgroundColor: Colors.white,
       ),
       body: Container(
