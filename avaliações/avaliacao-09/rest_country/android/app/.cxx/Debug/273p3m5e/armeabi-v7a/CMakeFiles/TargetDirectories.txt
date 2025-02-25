@@ -1,0 +1,2 @@
+C:/dev/Dart/pdm2-242/avaliacoes/avaliacao-09/rest_country/android/app/.cxx/Debug/273p3m5e/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/dev/Dart/pdm2-242/avaliacoes/avaliacao-09/rest_country/android/app/.cxx/Debug/273p3m5e/armeabi-v7a/CMakeFiles/rebuild_cache.dir

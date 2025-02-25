@@ -1,0 +1,13 @@
+#Mon Feb 24 23:44:24 BRT 2025
+base.0=C\:\\dev\\Dart\\pdm2-242\\avaliacoes\\avaliacao-09\\rest_country\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\dev\\Dart\\pdm2-242\\avaliacoes\\avaliacao-09\\rest_country\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\dev\\Dart\\pdm2-242\\avaliacoes\\avaliacao-09\\rest_country\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\dev\\Dart\\pdm2-242\\avaliacoes\\avaliacao-09\\rest_country\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=12/classes.dex
+path.3=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
